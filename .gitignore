@@ -1,0 +1,26 @@
+# AX 프로젝트 플래너 저장 규칙 파일
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.venv
+env/
+venv/
+.python-version
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
