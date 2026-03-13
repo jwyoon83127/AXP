@@ -18,7 +18,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/dashboard');
+        const response = await axios.get('/api/dashboard');
         setData(response.data);
       } catch (error) {
         console.error("Data fetching error:", error);
